@@ -1,6 +1,6 @@
 # US States List
 
-A library that provides a list of US states.
+A library that provides a list of US states and territories.
 
 ## Requirements
 
