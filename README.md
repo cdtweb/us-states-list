@@ -1,3 +1,26 @@
 # US States List
 
-A list of US states.
+A library that provides a list of US states.
+
+## Requirements
+
+PHP 7
+
+## Installation
+
+    composer install cdtweb/us-states-list
+    
+## Usage
+
+    <?php
+    use Cdtweb\UsStatesList;
+    
+    // Get array of abbreviation => name for each state
+    $states = UsStatesList::all();
+    
+    // Get array of abbreviations
+    $abbreviations = UsStatesList::abbreviations();
+    
+    // Get array of names
+    $names = UsStatesList::names();
+    

@@ -1,0 +1,34 @@
+{
+    "name": "cdtweb/us-states-list",
+    "description": "A list of US states and territories wrapped in a simple class.",
+    "version": "0.0.1",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clint Tyler",
+            "email": "ctyler@cdtwebsolutions.com"
+        }
+    ],
+    "keywords": ["us", "states"],
+    "homepage": "https://github.com/cdtweb/us-states-list",
+    "require": {
+        "php": ">=7"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "2.*",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cdtweb\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cdtweb\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    }
+}
