@@ -10,7 +10,7 @@ PHP 7
 
 ## Installation
 
-    composer install cdtweb/us-states-list
+    composer require cdtweb/us-states-list
     
 ## Usage
 
